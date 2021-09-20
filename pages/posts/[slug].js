@@ -12,20 +12,13 @@ const router = useRouter();
 
 if (router.isFallback) {
   return (
-    <Theme>
-      loading...
-    </Theme>
+    <h1>loading...</h1>
   )
 }
 
 if (!blog) {
   return (
-    <Theme>
-      <Head>
-        <meta name="robots" content="noindex" />
-      </Head>
-      404 - Page not found!
-    </Theme>
+    <h1>loading...</h1>
   )
 }
   return (
